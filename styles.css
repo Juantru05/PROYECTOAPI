@@ -1,0 +1,156 @@
+* {
+  font-family: "nunito", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  background: black;
+}
+.buscar {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0 0px 10px rgb(255, 255, 255);
+  transition: 3s ease;
+}
+
+.buscar:hover {
+  width: 560px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  color: rgb(249, 219, 85);
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+i {
+  font-size: 22px;
+  color: rgb(249, 219, 85);
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-image: url(Imagenes/fondo.jpg);
+  width: 100%;
+  height: 722px;
+}
+#msg {
+  display: flex;
+  text-align: center;
+  color: tomato;
+  display: none;
+  margin-bottom: 20px;
+  background: #ffff;
+  align-items: center;
+  height: 10%;
+}
+#button {
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  border-radius: 8px;
+  background-image: url(Imagenes/lupa.jpg);
+}
+.ola {
+  background: #F0C87B;
+}
+
+#items{
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+div.se {
+  background-color: #000000;
+  color: #eabe3f;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(Imagenes/fondo2.jpg);
+  height: 830px;
+}
+article.pri {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+article.segu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 90px;
+}
+div.ites {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.imap {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.ima1 {
+}
+.ima2 {
+}
+.ima3 {
+}
+.tre {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ver {
+  padding: 30px 60px;
+  background-color: #eabe3f;
+  color: #000000;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.ver:hover {
+  background-color: #cea523;
+  color: #ffff;
+}
+.ver:active {
+  background-color: #c09911;
+  color: #000000;
+}
+footer {
+  background: #000000;
+  color: #eabe3f;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
